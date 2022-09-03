@@ -1,0 +1,8 @@
+<mat-form-field class="w-full" appearance="fill">
+  <mat-label>{{ "APPLICATION_FORM.NATIONALITY" | translate }}</mat-label>
+  <mat-select [ngModel]="value" (ngModelChange)="onValueChange($event)">
+    <mat-option *ngFor="let item of nationalities" [value]="item.value">{{
+      item.label.en
+    }}</mat-option>
+  </mat-select>
+</mat-form-field>

@@ -1,0 +1,7 @@
+<mat-form-field class="w-full" appearance="fill">
+  <mat-label>{{ "APPLICATION_FORM.GENDER" | translate }}</mat-label>
+  <mat-select [ngModel]="value" (ngModelChange)="onValueChange($event)">
+    <mat-option value="male">{{ "GENDER.MALE" | translate }}</mat-option>
+    <mat-option value="female">{{ "GENDER.FEMALRE" | translate }}</mat-option>
+  </mat-select>
+</mat-form-field>

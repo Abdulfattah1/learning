@@ -1,0 +1,45 @@
+{
+  "APPLICATION_FORM": {
+    "APPLICATION_FORM": "Application Form",
+    "PERSONAL_INFORMATION": "Personal Information",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "FATHAR_NAME": "Fathar Name",
+    "MOTHER_NAME": "Mother Name",
+    "GENDER": "Gender",
+    "BIRTH_DATE": "Birth Date",
+    "FULL_NAME": "Full Name",
+    "GOVERNORATE": "Governorate",
+    "ID_CARD_TYPE": "Id Card Type",
+    "ID_CARD_NUMBER": "Id Card Number",
+    "CITY": "City",
+    "PHOME_NUMBER": "Phone Number",
+    "EMAIL": "E-mail",
+    "MARTIAL_STATUS": "Martial Status",
+    "HAVE_DISEASE": "Do you have any disease ?",
+    "NATIONALITY": "Nationality",
+    "DISEASE_DESCRIPTION": "What is the type of the disease ? And how match the treatement monthly cost",
+    "STUDENT_FIRST_NAME_BASED_ON_THE_ID_CARD": "Student first name based on the ID card",
+    "STUDENT_FATHAR_NAME_BASED_ON_THE_ID_CARD": "Student fathar name based on the ID card",
+    "STUDENT_LAST_NAME_BASED_IN_THE_ID_CARD": "Student last name based on the ID card",
+    "STUDENT_MOTHER_NAME": "Student mother name",
+    "BASED_ON_THE_TURKISH_ID_CARD": "Base on the turkish ID card",
+    "BASED_ON_THE_TURKISH_ID_CARD_OR_PASSPORT": "Base on the turkish ID card or passport",
+    "STUDENET_FULL_NAME_BASED_ON_THE_ID_CARD": "Student full name based on the id card",
+    "SYRIA_ORIGINAL_GOVERNORATE_AND_NAME_THE_STATE_IF_EXIST": "Syrain original governorate, and name the state if exist",
+    "YOUR_FAMILY_CURRENT_RESIDENT_AREA": "Your family current resident area",
+    "FAMILTY_RESIDENT_AREA": "Familty resident area (City)"
+  },
+  "CONFIRMATION": {
+    "YES": "Yes",
+    "NO": "No"
+  },
+  "GENDER": {
+    "MALE": "Male",
+    "FEMALE": "Female"
+  },
+  "MARTIAL_STATUS": {
+    "MARRIED": "Married",
+    "SINGLE": "Single"
+  }
+}

@@ -1,0 +1,12 @@
+<mat-radio-group
+  [value]="value"
+  (change)="onValueChange($event)"
+  class="vertical-radio-selector"
+>
+  <mat-radio-button
+    *ngFor="let item of items"
+    [value]="item.value"
+    class="mr-1"
+    >{{ item.label }}</mat-radio-button
+  >
+</mat-radio-group>

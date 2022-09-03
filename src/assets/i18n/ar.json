@@ -1,0 +1,39 @@
+{
+  "APPLICATION_FORM": {
+    "APPLICATION_FORM": "استمارة التقديم للطلبة المشاركين",
+    "PERSONAL_INFORMATION": "المعلومات الشخصية",
+    "FIRST_NAME": "الاسم الأول",
+    "LAST_NAME": "الاسم الأخير",
+    "FATHAR_NAME": "اسم الأب",
+    "MOTHER_NAME": "اسم الأم",
+    "GENDER": "الجنس",
+    "BIRTH_DATE": "تاريخ الولادة",
+    "FULL_NAME": "الاسم الكامل",
+    "GOVERNORATE": "المحافظة",
+    "ID_CARD_TYPE": "نوع الهوية",
+    "ID_CARD_NUMBER": "رقم الهوية",
+    "CITY": "عنوان سكن العائلة(المدينة)",
+    "PHOME_NUMBER": "رقم الهاتف الخاص بك",
+    "EMAIL": "الإيميل الالكتروني الخاص بك",
+    "MARTIAL_STATUS": "الحالة الإحتماعية",
+    "HAVE_DISEASE": "هل تعاني من مرض معين",
+    "DISEASE_DESCRIPTION": "ما هون نوع المرض ؟ وتكلفة العلاج شهريا بال (الليرة)",
+    "STUDENT_FIRST_NAME_BASED_ON_THE_ID_CARD": "الاسم الاول للطالب حسب الهوية",
+    "STUDENT_FATHAR_NAME_BASED_ON_THE_ID_CARD": "اسم اب الطالب حسب الهوية",
+    "STUDENT_LAST_NAME_BASED_IN_THE_ID_CARD": "كنية الطالب حسب الهوية",
+    "STUDENT_MOTHER_NAME": "اسم والدة الطالب",
+    "BASED_ON_THE_TURKISH_ID_CARD": "حسب الهوية التركية",
+    "STUDENET_FULL_NAME_BASED_ON_THE_ID_CARD": "اسم الطالب الكامل حسب الهويوة",
+    "SYRIA_ORIGINAL_GOVERNORATE_AND_NAME_THE_STATE_IF_EXIST": "المحافظة الأصل في سوريا مع ذكر البلدة (إن وجد)",
+    "YOUR_FAMILY_CURRENT_RESIDENT_AREA": "منطة السكن المتواجدة فيها عائلتك حاليا",
+    "FAMILTY_RESIDENT_AREA(City)": "Familty resident area (City)"
+  },
+  "CONFIRMATION": {
+    "YES": "نعم",
+    "NO": "لا"
+  },
+  "GENDER": {
+    "MALE": "ذكر",
+    "FEMALE": "أنثى"
+  }
+}

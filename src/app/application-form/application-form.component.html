@@ -1,0 +1,24 @@
+<section class="application-form" aria-label="Application form section">
+  <mat-card>
+    <mat-card-title
+      aria-label="Application form"
+      class="application-form__title"
+      >{{ "APPLICATION_FORM.APPLICATION_FORM" | translate }}</mat-card-title
+    >
+    <mat-divider></mat-divider>
+    <mat-tab-group dynamicHeight [formGroup]="form">
+      <mat-tab [label]="'APPLICATION_FORM.PERSONAL_INFORMATION' | translate">
+        <app-personal-information
+          class="p-3"
+          formControlName="personal_information"
+        ></app-personal-information>
+      </mat-tab>
+      <mat-tab [label]="'Personal information' | titlecase">
+        Content 2
+      </mat-tab>
+      <mat-tab [label]="'Personal information' | titlecase">
+        Content 3
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card>
+</section>

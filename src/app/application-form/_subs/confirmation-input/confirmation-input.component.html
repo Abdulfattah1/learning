@@ -1,0 +1,7 @@
+<mat-form-field class="w-full" appearance="fill">
+  <mat-label>{{ label }}</mat-label>
+  <mat-select [value]="value" (selectionChange)="onValueChange($event)">
+    <mat-option [value]="1">{{ "CONFIRMATION.YES" | translate }}</mat-option>
+    <mat-option [value]="0">{{ "CONFIRMATION.NO" | translate }}</mat-option>
+  </mat-select>
+</mat-form-field>

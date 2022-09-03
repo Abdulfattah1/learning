@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('./assets/scss/helpers.scss');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+
+.vertical-radio-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.p-3 {
+  padding: 3rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.d-inline-block {
+  display: inline-block;
+}

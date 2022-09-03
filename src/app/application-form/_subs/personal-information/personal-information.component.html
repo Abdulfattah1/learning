@@ -1,0 +1,144 @@
+<section class="section-container" [formGroup]="form">
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.FIRST_NAME" | translate }}</mat-label>
+      <input type="text" matInput formControlName="first_name" />
+      <mat-hint>
+        {{
+          "APPLICATION_FORM.STUDENT_FIRST_NAME_BASED_ON_THE_ID_CARD" | translate
+        }}
+      </mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.FATHAR_NAME" | translate }}</mat-label>
+      <input type="text" matInput formControlName="fathar_name" />
+      <mat-hint>
+        {{
+          "APPLICATION_FORM.STUDENT_FATHAR_NAME_BASED_ON_THE_ID_CARD"
+            | translate
+        }}
+      </mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.LAST_NAME" | translate }}</mat-label>
+      <input type="text" matInput formControlName="last_name" />
+      <mat-hint>
+        {{
+          "APPLICATION_FORM.STUDENT_LAST_NAME_BASED_IN_THE_ID_CARD" | translate
+        }}
+      </mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.MOTHER_NAME" | translate }}</mat-label>
+      <input type="text" matInput formControlName="mother_name" />
+      <mat-hint>
+        {{ "APPLICATION_FORM.STUDENT_MOTHER_NAME" | translate }}
+      </mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <app-gender-input
+      id="gender-input"
+      formControlName="gender"
+    ></app-gender-input>
+  </div>
+  <mat-form-field appearance="fill">
+    <mat-label>{{ "APPLICATION_FORM.BIRTH_DATE" | translate }}</mat-label>
+    <input matInput [matDatepicker]="picker" />
+    <mat-hint>{{
+      "APPLICATION_FORM.BASED_ON_THE_TURKISH_ID_CARD_OR_PASSPORT"
+    }}</mat-hint>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.FULL_NAME" | translate }}</mat-label>
+      <input type="text" matInput formControlName="full_name" />
+      <mat-hint>
+        {{
+          "APPLICATION_FORM.STUDENET_FULL_NAME_BASED_ON_THE_ID_CARD" | translate
+        }}
+      </mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.GOVERNORATE" | translate }}</mat-label>
+      <input type="text" matInput formControlName="governorate" />
+      <mat-hint>
+        {{
+          "APPLICATION_FORM.SYRIA_ORIGINAL_GOVERNORATE_AND_NAME_THE_STATE_IF_EXIST"
+            | translate
+        }}
+      </mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <app-nationality-input
+      formControlName="nationality"
+    ></app-nationality-input>
+  </div>
+  <div class="mb-2">
+    <app-id-card-type-input
+      id="id-card-type"
+      formControlName="id_card_type"
+    ></app-id-card-type-input>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{
+        "APPLICATION_FORM.FAMILTY_RESIDENT_AREA" | translate
+      }}</mat-label>
+      <input type="text" matInput formControlName="family_resident_area" />
+      <mat-hint>
+        {{ "APPLICATION_FORM.YOUR_FAMILY_CURRENT_RESIDENT_AREA" | translate }}
+      </mat-hint>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.PHOME_NUMBER" | translate }}</mat-label>
+      <input type="text" matInput formControlName="phone_number" />
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.EMAIL" | translate }}</mat-label>
+      <input type="email" matInput formControlName="email" />
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{ "APPLICATION_FORM.MARTIAL_STATUS" | translate }}</mat-label>
+      <mat-select formControlName="marital_status">
+        <mat-option value="male">{{
+          "MARTIAL_STATUS.MARRID" | translate
+        }}</mat-option>
+        <mat-option value="female">{{
+          "MARTIAL_STATUS.SINGLE" | translate
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="mb-2">
+    <app-confirmation-input
+      [label]="'APPLICATION_FORM.HAVE_DISEASE' | translate"
+      formControlName="have_disease"
+    ></app-confirmation-input>
+  </div>
+  <div class="mb-2" *ngIf="!!values.have_disease">
+    <mat-form-field class="w-full" appearance="fill">
+      <mat-label>{{
+        "APPLICATION_FORM.DISEASE_DESCRIPTION" | translate
+      }}</mat-label>
+      <input type="text" matInput formControlName="disease_description" />
+    </mat-form-field>
+  </div>
+</section>
